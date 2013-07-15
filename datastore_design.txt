@@ -1,0 +1,31 @@
+﻿C# datastore
+
+Stock
+kg number
+ccs string
+m3 number
+
+-keys:
+ key: 12345678
+ parent: table.Number=1
+ name: "m3"
+ value: 89
+ options: {unit:'m3'}
+
+table.Text255
+table.Text500
+table.Text1000
+table.Number
+table.DateTime
+table.Boolean
+
+Stock entry one
+|kg|ccs|m3|
+|100kg|1000-89|89|
+
+---table.Text255
+1||name|Stock|
+2|table.String=1|ccs|"1000-89"|
+---table.Number
+3|table.String=1|kg|100|{unit:'kg'}
+4|table.String=1|m3|89|{unit:'m3'}

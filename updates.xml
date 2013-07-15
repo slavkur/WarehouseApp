@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<updates>
+  <update>
+    <url>http://54.246.82.163/SVOYSetup-121012-1120.msi</url>
+    <version>1.0.311.0</version>
+    <created>2012-10-12</created>
+    <changes>Updated invoice create</changes>
+  </update>
+</updates>

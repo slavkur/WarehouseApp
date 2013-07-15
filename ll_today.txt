@@ -1,0 +1,10 @@
+﻿SELECT count(*) AS amount
+FROM LoadingList
+WHERE Format(created_at,"mm/dd/yyyy")=Format(now(),"mm/dd/yyyy")
+GROUP BY Format(created_at,"mm/dd/yyyy")=Format(now(),"mm/dd/yyyy");
+
+GROUP BY Format(created_at,"mm/dd/yyyy")=Format(now(),"mm/dd/yyyy");
+
+SELECT index
+FROM LoadingList
+WHERE Format(created_at,"mm/dd/yyyy")=Format(now(),"mm/dd/yyyy") order by created_at desc;
